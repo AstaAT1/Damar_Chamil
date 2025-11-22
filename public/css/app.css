@@ -10,10 +10,10 @@ body
     font-family: 'Poppins', sans-serif;
 }
 
-.fixed-top
+.header-container
 {
     width: 100%;
-    height: 4.2vh;
+    height: 5vh;
     margin: 0 auto;
     background-color: hsl(0, 0%, 24%);
     display: flex;
@@ -23,17 +23,21 @@ body
     color: aliceblue;
 }
 
-.fixed-top div
+
+
+.header-container div
  {
     display: flex;
     gap: 1vw;
 }
 
-.fixed-top div p 
+
+.header-container div p 
 {
     display: flex;
     align-items: center;
     gap: 0.5vw;
+    padding-top: 1vh;
 }
 
 .header-container div p:nth-child(1):hover
@@ -53,12 +57,12 @@ body
     text-decoration: underline;
 }
 
-.fixed-top div p svg 
+.header-container div p svg 
 {
     color: hsl(9, 77%, 63%);
 }
 
-.fixed-top a
+.header-container a
 {
     color: aliceblue;
 }
@@ -78,7 +82,7 @@ body
 
 @media (max-width: 480px)
 {
-    .fixed-top
+    .header-container
     {
         padding-inline: 2vw;
         justify-content: center;
