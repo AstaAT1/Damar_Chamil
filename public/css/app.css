@@ -1,0 +1,98 @@
+/* ......About..... */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.container 
+{
+    width: 100%;
+    height: 4.2vh;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 24%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15vw;
+    color: aliceblue;
+    position: absolute;
+}
+
+.container div
+ {
+    display: flex;
+    gap: 1vw;
+}
+
+.container div p 
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.container div p:nth-child(1):hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.link
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    color: hsl(9, 77%, 63%);
+    text-decoration: underline;
+}
+
+.container div p svg 
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.scl a
+{
+    opacity: 70%;
+    color: aliceblue;
+}
+
+.scl a:hover
+{
+    opacity: 100%;
+    color: hsl(9, 77%, 63%);
+}
+
+
+
+
+@media (max-width: 480px)
+{
+    .container
+    {
+        padding-inline: 2vw;
+        justify-content: center;
+
+    }
+
+    .container div
+    {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .scl a
+    {
+        display: none;
+    }
+    
+}
