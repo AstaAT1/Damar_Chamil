@@ -96,3 +96,22 @@ body
     }
     
 }
+/* hamza */
+.cards_servise{
+    /* background-color: red; */
+    width: 100%;
+    /* height: 100vw; */
+    /* overflow: hidden; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card-hover:hover{
+    color: white;
+    background-color: brown;
+    transition: 1s;
+}
+.card_name:hover{
+    
+}
