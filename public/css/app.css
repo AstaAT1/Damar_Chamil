@@ -182,6 +182,7 @@ body
 .about 
 {
     padding-inline: 14vw;
+    gap: 5vw;
 }
 
 .about img
@@ -191,13 +192,19 @@ body
 
 .about div h1
 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     opacity: 80%;
 }
 
 .about div p
 {
     opacity: 65%;
+}
+
+.about > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh; /* Adds vertical space between title, list, and description */
 }
 
 .about div ul
@@ -249,16 +256,31 @@ body
         transform: rotate(180deg);
     }
 
+    .about
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-inline: 5vw;
+        gap: 3vh;
+    }
+
+    .about img
+    {
+        width: 100%;
+    }
+
+    .about div h1
+    {
+    font-size: 8vw;
+    font-weight: bolder;
+    }
+
     .navback h1
     {
     font-size: 5vw;
     }
 
-    .about
-    .navbar .container-fluid
-    {
-        padding-inline: 5vw;
-    }
+ 
     .navback h1
     {
     font-size: 7vw;
