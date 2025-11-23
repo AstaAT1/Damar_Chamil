@@ -1,4 +1,4 @@
-/* ......About..... */
+/* ......About (Aymen)..... */
 * {
     margin: 0;
     padding: 0;
@@ -429,14 +429,14 @@ body
     margin-top: 5vh;
 }
 
-.tsi > div
+.tsi div
 {
     display: flex;
     justify-content: space-between;
     gap: 2vw;
 }
 
-.tsi > div > div
+.tsi div div
 {
     display: flex;
     gap: 1vw;
@@ -473,6 +473,116 @@ body
     opacity: 80%;
     font-weight: bold;
 }
+
+
+.clients
+{
+    padding-inline: 14vw;
+    margin-top: 5vh;
+}
+
+.clients div h1
+{
+    font-weight: bold;
+    font-size: 2vw;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    gap: .5vw;
+    position: relative;
+    padding-bottom: 3vh;
+}
+
+.clients div h1::after
+{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5%;
+    height: 4px;
+    background-color: hsl(9, 77%, 63%);
+}
+
+.clients div p
+{
+    padding-top: 2vh;
+    text-align: center;
+}
+
+
+ .clients-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 60px 30px;
+        }
+
+        .carousel-container {
+            position: relative;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .client-logo {
+            min-width: calc(100% / 6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .client-logo img {
+            max-width: 140px;
+            max-height: 60px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            filter: grayscale(100%);
+            opacity: 0.5;
+            transition: all 0.3s ease;
+        }
+
+        .client-logo:hover img {
+            filter: grayscale(0%);
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        .carousel-indicators {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 40px;
+        }
+
+        .indicator {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #d1d5db;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            padding: 0;
+        }
+
+        .indicator:hover {
+            background: #9ca3af;
+        }
+
+        .indicator.active {
+            background: #ef4444;
+        }
+
+
+
 
 
 /* Mobile Dropdown Fix */
@@ -534,4 +644,19 @@ body
     {
     font-size: 5vw;
     }
+    .client-logo 
+    {
+        min-width: calc(100% / 4);
+    }
+}
+
+ @media (max-width: 480px) 
+ {
+            .client-logo {
+                min-width: calc(100% / 2);
+            }
+            .client-logo img {
+                max-width: 100px;
+                max-height: 50px;
+            }
 }
