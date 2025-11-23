@@ -121,7 +121,31 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
 .lefto{
   width: 33%;
   padding-bottom: 105px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
 .check{
   color: #e1614b;
+}
+.lefto span{
+  color: #636262;
+     font-style: italic !important;
+}
+.lefto svg{
+  width:39px;
+  
+}
+.line{
+  display: flex;
+
+}
+
+.linex{
+  display: flex;
+  column-gap: 20px;
+}
+.linex svg{
+  position: relative;
+  left: 10px;
 }
