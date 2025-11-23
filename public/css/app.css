@@ -408,6 +408,7 @@ body
     display: flex;
     flex-direction: column;
     gap: 1vh;
+    padding-left: 0;
 }
 
 .about div ul li svg
@@ -454,6 +455,25 @@ body
     height: 3vw;
     flex-shrink: 0;
 }
+
+.num
+{
+    font-weight: bold;
+    color: hsl(0, 0%, 33%);
+}
+
+.col1 p
+{
+    opacity: 50%;
+    font-weight: 350;
+}
+
+.para
+{
+    opacity: 80%;
+    font-weight: bold;
+}
+
 
 /* Mobile Dropdown Fix */
 @media (max-width: 1024px)
