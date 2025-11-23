@@ -98,20 +98,153 @@ body
 }
 /* hamza */
 .cards_servise{
-    /* background-color: red; */
-    width: 100%;
-    /* height: 100vw; */
-    /* overflow: hidden; */
-    justify-content: center;
+    /* width: 100%; */
+    /* justify-content: center; */
     align-items: center;
     display: flex;
 }
-
-.card-hover:hover{
-    color: white;
-    background-color: brown;
-    transition: 1s;
+.sec1_servise div{
+    padding-bottom: 60px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
-.card_name:hover{
-    
+.card-hover:hover{
+    .card-befor{
+        background-color: #fff;
+        color: #f75d59;
+    }
+    color: white;
+    background-color: rgb(232, 108, 86);
+    transition: 0.5s;
+}
+.card-befor{
+    position: relative;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.card-befor::before{
+    content: '';
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    background-color: rgb(250, 227, 222);
+    z-index: -122;
+    border-radius: 10px;
+}
+.card-befor{
+   background-color: #f75d59;
+}
+.sec1_servise{
+    animation-duration: 3s;
+}
+/* body */
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* body */
+
+/* sec2 */
+.servise_sec2{
+    width: 69.4vw;
+    height: 717px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.servise_sec2 h2{
+    position: relative;
+    font-weight: bold;
+}
+.servise_sec2 h2::after{
+    content: '';
+    background-color: #e96b56;
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    left: 30%;
+    top: 46px;
+}
+.h2_p_sec2{
+    line-height: 4.0;
+}
+.servise_sec2 p{
+    font-size: 16px;
+}
+.img_skils img{
+    width: 600px;
+    height: 430px;
+}
+/* progress */
+.progriis .lon_progres{
+    background-color: #e96b56;
+}
+.progriis .skill{
+    display: block;
+    font-weight: bold;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+}
+.skiils_names{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20PX;
+}
+/* hamza_media */
+@media (min-width: 300px) and (max-width: 1199.98px) { 
+    .servise_sec2{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        text-align: center;
+
+    }
+    .img_skils{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        display:block;
+    }
+    .voluptatem_names{
+        display: flex;
+        flex-direction: column;
+    }
+    .servise_sec2 {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.img_skils img {
+  width: 100%;
+  height: auto; 
+  display: block;
+  padding-bottom: 33px;
+}
+
+.d-flex.align-items-center {
+  flex-wrap: wrap;
+}
+
+.voluptatem_names {
+  max-width: 500px;
+  display: flex;
+  padding-bottom: 40px;
+  margin: 0 auto ;
+}
+
+}
+/* contact_hamza */
+.geo_icons{
+    border-radius: 50% ;
+    background-color: #f75d59;
+}
+#contact .inputtts{
 }
