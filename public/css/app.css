@@ -536,15 +536,28 @@ body
  flex-direction: column;
  align-items: center;
 }
-.card-hover:hover{
-    .card-befor{
+/* lhover */
+.card-hover:hover {
+    color: white;
+    background-color: rgb(232, 108, 86);
+    transition: 0.5s;
+}
+
+.card-hover:hover .card-befor,
+.card-hover:hover .bi-activity {
+    background-color: #fff;
+    color: #f75d59;
+}
+
+.card-tow:hover{
+    .card-tow ,.bi-broadcast{
         background-color: #fff;
-        color: #f75d59;
     }
     color: white;
     background-color: rgb(232, 108, 86);
     transition: 0.5s;
 }
+/* lhover */
 .card-befor{
     position: relative;
     height: 70px;
@@ -667,31 +680,4 @@ body{
   margin: 0 auto ;
 }
 
-}
-/* contact_hamza */
-.hamza_lwst{
-    background-color: chocolate;
-    width: 80vw;
-    margin: 0 auto;
-}
-.geo_icons{
-    font-size: 30px;
-    border: 1px dashed;
-    border-radius: 90px;
-    padding-inline: 15px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    color: #f75d59;
-}
-#part_2_map{
-    background-color: aqua;
-}
-#part_2_map button{
-    background-color: #f75d59;
-    border: none;
-    outline: none;
-    padding: 7px 18px;
-    border-radius: 40px;
-    color: #fff;
-    font-weight: bold;
 }
