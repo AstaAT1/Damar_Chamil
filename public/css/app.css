@@ -1,3 +1,4 @@
+/* ...part1_in_home... */
 .page1{
     /* position: relative; */
   display: flex;
@@ -32,12 +33,24 @@
   width: 57vw;
   font-size: 17px;
   color: #444444;
+animation: top 0.8s ease-out forwards;
+animation-delay: 0.3s;
 }
 .page1 h1{
 font-size: 48px;
 font-weight: bolder;
+animation: top 0.8s ease-out forwards;
 
-
+}
+@keyframes top{
+  0%{
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 }
 .get-started{
@@ -52,8 +65,17 @@ font-weight: bolder;
   align-items: center;
   border-radius: 50px;
   transition: 0,5s;
-  
-
+  animation: bottom 0.8s ease-out forwards;
+}
+@keyframes bottom{
+   0%{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .get-started:hover{
      filter: brightness(0.9);
@@ -70,6 +92,9 @@ color:  #E96B56;;
  
 
 }
+/* ...final .part1_in_home... */
+/* ................ */
+/* ...part2_in_home... */
 .part2_in_home{
   display: flex;
 
@@ -92,12 +117,24 @@ color:  #E96B56;;
 box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
   background-color: rgb(255, 255, 255);
 }
+@keyframes parto{
+  
+   0%{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .parto1:hover{
   background-color: #e1614b;
   color: aliceblue;
   .icono{
     color: aliceblue;
+   animation: parto 0.8s ease-out forwards ;
   }
   
 }
@@ -108,15 +145,18 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
 .parto1 p{
   width: 14vw;
 }
+/* ...final .part2_in_home... */
+/* ............. */
+/* ...part3_in_home... */
 .part3_in_home{
   background-color: rgb(255, 255, 255);
-  height: 60vh;
-  width: 99vw;
+  /* height: 60vh;
+  width: 99vw; */
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 18px;
-  padding-top: 400px;
+  padding-top: 250px;
 }
 .lefto{
   width: 33%;
@@ -148,4 +188,136 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
 .linex svg{
   position: relative;
   left: 10px;
+}
+/* ...final_part3_in_home... */
+/* ............ */
+/* ...footer... */
+.ms-n5 {
+    position: relative;
+    left: 580px;
+    top: -50px;
+  
+  
+   
+}
+.top button{
+ background-color: #E96B56;color: aliceblue;
+ height: 50px;
+ width: 120px;
+ font-size: 18px;
+}
+.top button:hover{
+  opacity: 0.8;
+  background-color: #E96B56;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #595959;
+  row-gap: 20px;
+  width: 99vw;
+  height: 30vh;
+  color: aliceblue;
+}
+.max-autoo{
+  width: 700px;
+}
+.input-group{
+  height: 50px
+  
+}
+#example-search-input{
+  background-color: #656565;
+  border: 2px rgb(128, 128, 128) solid;
+   width: 700px;
+   height: 50px
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  background-color: #444444;
+  padding-top: 100px;
+  height: auto;
+}
+.bottom1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 250px;
+}
+.bottom_left{
+ color: aliceblue;
+}
+.bottom_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  color: aliceblue;
+}
+.salaw_smiyat{
+  display: flex;
+  color: rgb(160, 160, 160);
+  column-gap: 4px;
+  
+}
+.salaw_smiyat i{
+  color: #E96B56;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.witho{
+  width: 70%;
+}
+.iconso{
+  border: white 1px solid;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.walo_smiya{
+  display: flex;
+  column-gap: 10px;
+}
+
+.adress{
+  width: 55%;
+}
+.bottom2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  color: aliceblue;
+  height: 14vh;
+  
+
+}
+.spano{
+
+  padding-bottom:20px;
+  width: 80%;
+  border-top: 1px solid gray;
+}
+.childp1 span{
+  font-weight: bold;
+}
+.childp2 span{
+  color: #E96B56;
+}
+.childp2{
+  font-size: 15px;
+ 
 }
