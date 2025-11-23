@@ -664,7 +664,7 @@ body
 
 
 .header-container div
- {
+{
     display: flex;
     gap: 1vw;
 }
