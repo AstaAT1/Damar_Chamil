@@ -544,10 +544,17 @@ body
 }
 
 .card-hover:hover .card-befor,
-.card-hover:hover .bi-activity {
+.card-hover:hover .bi-activity,
+.card-hover:hover .bi-broadcast,
+.card-hover:hover .bi-easel,
+.card-hover:hover  .bi-bounding-box-circles,
+.card-hover:hover  .bi-calendar-week
+, .card-hover:hover  .bi-chat-square-text {
     background-color: #fff;
     color: #f75d59;
 }
+
+
 
 .card-tow:hover{
     .card-tow ,.bi-broadcast{
@@ -557,7 +564,7 @@ body
     background-color: rgb(232, 108, 86);
     transition: 0.5s;
 }
-/* lhover */
+/*  */
 .card-befor{
     position: relative;
     height: 70px;
@@ -584,7 +591,8 @@ body
 .sec1_servise{
     animation-duration: 3s;
 }
-/* body */
+/* bOur Skills
+ody */
 body{
     display: flex;
     flex-direction: column;
