@@ -484,11 +484,6 @@ header{
   z-index: 999;
   width: 100%;
 }
-body
-{
-    font-family: 'Poppins', sans-serif;
-}
-
 .header-container
 {
     width: 100%;
