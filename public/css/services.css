@@ -1,0 +1,600 @@
+.cards_servise{
+    /* width: 100%; */
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+}
+.sec1_servise div{
+    padding-bottom: 60px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+/* lhover */
+.card-hover:hover {
+    color: white;
+    background-color: rgb(232, 108, 86);
+    transition: 0.5s;
+}
+
+.card-hover:hover .card-befor,
+.card-hover:hover .bi-activity,
+.card-hover:hover .bi-broadcast,
+.card-hover:hover .bi-easel,
+.card-hover:hover  .bi-bounding-box-circles,
+.card-hover:hover  .bi-calendar-week
+, .card-hover:hover  .bi-chat-square-text {
+    background-color: #fff;
+    color: #f75d59;
+}
+
+
+
+.card-tow:hover{
+    .card-tow ,.bi-broadcast{
+        background-color: #fff;
+    }
+    color: white;
+    background-color: rgb(232, 108, 86);
+    transition: 0.5s;
+}
+/*  */
+.card-befor{
+    position: relative;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.card-befor::before{
+    content: '';
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    background-color: rgb(250, 227, 222);
+    z-index: -122;
+    border-radius: 10px;
+}
+.card-befor{
+   background-color: #f75d59;
+}
+.sec1_servise{
+    animation-duration: 3s;
+}
+/* bOur Skills
+ody */
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* body */
+
+/* sec2 */
+.servise_sec2{
+    width: 69.4vw;
+    height: 717px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.servise_sec2 h2{
+    position: relative;
+    font-weight: bold;
+}
+.servise_sec2 h2::after{
+    content: '';
+    background-color: #e96b56;
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    left: 30%;
+    top: 46px;
+}
+.h2_p_sec2{
+    line-height: 4.0;
+}
+.servise_sec2 p{
+    font-size: 16px;
+}
+.img_skils img{
+    width: 600px;
+    height: 430px;
+}
+/* progress */
+.progriis .lon_progres{
+    background-color: #e96b56;
+}
+.progriis .skill{
+    display: block;
+    font-weight: bold;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+}
+.skiils_names{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20PX;
+}
+/* hamza_media */
+@media (min-width: 300px) and (max-width: 1199.98px) { 
+    .servise_sec2{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        text-align: center;
+
+    }
+    .img_skils{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        display:block;
+    }
+    .voluptatem_names{
+        display: flex;
+        flex-direction: column;
+    }
+    .servise_sec2 {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.img_skils img {
+  width: 100%;
+  height: auto; 
+  display: block;
+  padding-bottom: 33px;
+}
+
+.d-flex.align-items-center {
+  flex-wrap: wrap;
+}
+
+.voluptatem_names {
+  max-width: 500px;
+  display: flex;
+  padding-bottom: 40px;
+  margin: 0 auto ;
+}
+
+}
+/* ...footer... */
+.ms-n5 {
+    position: relative;
+    left: 580px;
+    top: -50px;
+    
+  
+  
+   
+}
+.top button{
+ background-color: #E96B56;color: aliceblue;
+ height: 50px;
+ width: 120px;
+ font-size: 18px;
+}
+.top button:hover{
+  opacity: 0.8;
+  background-color: #E96B56;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #595959;
+  row-gap: 20px;
+ 
+  height: 30vh;
+  color: aliceblue;
+}
+.max-autoo{
+  width: 700px;
+}
+.input-group{
+  height: 50px
+  
+}
+#example-search-input{
+  background-color: #656565;
+  border: 2px rgb(128, 128, 128) solid;
+   width: 700px;
+   height: 50px
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  background-color: #444444;
+  padding-top: 100px;
+  height: auto;
+}
+.bottom1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 250px;
+}
+.bottom_left{
+ color: aliceblue;
+}
+.bottom_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  color: aliceblue;
+}
+.salaw_smiyat{
+  display: flex;
+  color: rgb(160, 160, 160);
+  column-gap: 4px;
+  
+}
+.salaw_smiyat i{
+  color: #E96B56;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.witho{
+  width: 70%;
+}
+.iconso{
+  border: white 1px solid;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.walo{
+  display: flex;
+  column-gap: 10px;
+}
+
+.adress{
+  width: 55%;
+}
+.bottom2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  color: aliceblue;
+  height: 14vh;
+  
+
+}
+.spano{
+
+  padding-bottom:20px;
+  width: 80%;
+  border-top: 1px solid gray;
+}
+.childp1 span{
+  font-weight: bold;
+}
+.childp2 span{
+  color: #E96B56;
+}
+.childp2{
+  font-size: 15px;
+}
+.header-container
+{
+    width: 100%;
+    height: 5vh;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 24%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15vw;
+    color: aliceblue;
+}
+
+
+
+.header-container div
+
+ {
+    display: flex;
+    gap: 1vw;
+}
+
+
+.header-container div p 
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    padding-top: 1vh;
+}
+
+.header-container div p:nth-child(1):hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.link
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    color: hsl(9, 77%, 63%);
+    text-decoration: underline;
+}
+
+.header-container div p svg 
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.header-container a
+{
+    color: aliceblue;
+}
+
+.scl 
+{
+    opacity: 70%;
+}
+
+.scl a:hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.logo
+{
+    color: hsl(0, 0%, 37%);
+    text-decoration: none;
+    border-left: 10px solid hsl(9, 77%, 63%);
+    padding-left: 1vw;
+    font-size: 1.5vw;
+}
+
+
+.navbar .container-fluid
+{
+    padding-inline: 15vw;
+}
+
+.lnk
+{
+    text-decoration: none;
+    padding: 0.5vw;
+    cursor: pointer;
+    color: hsl(0, 0%, 24%);
+}
+
+.lnk1
+{
+    color: hsl(9, 77%, 63%) ;
+    text-decoration: none;
+}
+
+.lnk:hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+/* the nested drop style */
+.dropdown-menu .submenu
+{
+    display: none;
+    position: absolute;
+    top: 30%;
+    right: 100%; /*to show the menu on the right side*/
+    /* aligns with the top of parent */
+    margin-top: -1px; 
+    /* Animation initial state (Hidden) */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px); /* Start slightly lower */
+      
+    /* The Transition Magic */
+    transition: all 0.3s ease-in-out;
+    display: block; /* We keep it 'block' but hidden with opacity */
+}
+
+/* shows the menu on hover*/
+.dropdown-menu li:hover .submenu
+{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* Move back to original position */
+}
+
+
+.dropdown-menu li:hover .dropdown-toggle::after
+{
+    transform: rotate(90deg); 
+}
+
+/* navbar back */
+
+.navback
+{
+    background-color:hsl(0, 0%, 97%);
+    padding: 1vw;
+    color: hsl(0, 0%, 24%);
+    padding-left: 15vw;
+}
+
+.navback div
+{
+    display: flex;
+    gap: .5vw;
+}
+
+.navback a
+{
+    text-decoration: none;
+    color: hsl(9, 77%, 63%);
+    cursor: pointer;
+    padding-bottom: 1vh;
+}
+
+.navback h1
+{
+    color: hsl(0, 0%, 33%);
+    font-size: 2vw;
+}
+
+.navspan
+{
+    opacity: 70%;
+}
+
+.about 
+{
+    padding-inline: 14vw;
+    gap: 5vw;
+}
+
+.about img
+{
+    width: 100%;
+}
+
+.about div h1
+{
+    font-size: 2.5vw;
+    opacity: 80%;
+}
+
+.about div p
+{
+    opacity: 65%;
+}
+
+.about > div:first-child {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container
+{
+    width: 100%;
+    height: 5vh;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 24%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15vw;
+    color: aliceblue;
+}
+
+
+
+.header-container div
+ {
+    display: flex;
+
+
+    display: flex;
+
+    gap: 1vw;
+}
+
+
+.header-container div p
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    padding-top: 1vh;
+}
+
+.header-container div p:nth-child(1):hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.link
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    color: hsl(9, 77%, 63%);
+    text-decoration: underline;
+}
+
+.header-container div p svg
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.header-container a
+{
+    color: aliceblue;
+}
+
+.scl
+{
+    opacity: 70%;
+}
+
+.scl a:hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.logo
+{
+    color: hsl(0, 0%, 37%);
+    text-decoration: none;
+    border-left: 10px solid hsl(9, 77%, 63%);
+    padding-left: 1vw;
+    font-size: 1.5vw;
+}
+
+
+.navbar .container-fluid
+{
+    padding-inline: 15vw;
+}
+
+.lnk
+{
+    text-decoration: none;
+    padding: 0.5vw;
+    cursor: pointer;
+    color: hsl(0, 0%, 24%);
+}
+
+.lnk1
+{
+    color: hsl(9, 77%, 63%) ;
+    text-decoration: none;
+}
+
+.lnk:hover
+{
+    color: hsl(9, 77%, 63%);
+}
+.icono{
+  color:  #E96B56;
+ font-size: 36px;
+}
