@@ -45,6 +45,11 @@ body
     color: hsl(9, 77%, 63%);
 }
 
+.logo-text
+{
+    font-size: 1.5vw;
+}
+
 .link
 {
     color: aliceblue;
@@ -581,7 +586,9 @@ body
             background: #ef4444;
         }
 
-
+.cntr{
+    width: 50vw;
+}
 
 
 
