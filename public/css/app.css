@@ -42,69 +42,10 @@
   color: #444444;
 animation: top 0.8s ease-out forwards;
 animation-delay: 0.3s;
-/* ......About (Aymen)..... */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body
-{
-    font-family: 'Poppins', sans-serif;
-}
-
-.header-container
-{
-    width: 100%;
-    height: 5vh;
-    margin: 0 auto;
-    background-color: hsl(0, 0%, 24%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-inline: 15vw;
-    color: aliceblue;
 }
 
 
 
-.header-container div
- {
-    display: flex;
-    gap: 1vw;
-}
-
-
-.header-container div p 
-{
-    display: flex;
-    align-items: center;
-    gap: 0.5vw;
-    padding-top: 1vh;
-}
-
-.header-container div p:nth-child(1):hover
-{
-    color: hsl(9, 77%, 63%);
-}
-
-.logo-text
-{
-    font-size: 1.5vw;
-}
-
-.link
-{
-    color: aliceblue;
-    text-decoration: none;
-}
-
-.link:hover
-{
-    color: hsl(9, 77%, 63%);
-    text-decoration: underline;
-}
 .page1 h1{
 font-size: 48px;
 font-weight: bolder;
@@ -172,7 +113,7 @@ color:  #E96B56;;
   position: absolute;
   column-gap: 25px;
 
-  top: 470px;
+  top: 570px;
   left: 15%;
 }
 .parto1{
@@ -251,6 +192,11 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
 }
 /* ...final_part3_in_home... */
 /* ............ */
+.part4_in_home{
+  position: relative;
+  left: 300px;
+
+}
 /* ...footer... */
 .ms-n5 {
     position: relative;
@@ -346,20 +292,9 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
   display: flex;
   justify-content: center;
   align-items: center; 
-
-.tsi div
-{
-    display: flex;
-    justify-content: space-between;
-    gap: 2vw;
 }
 
-.tsi div div
-{
-    display: flex;
-    gap: 1vw;
-}
-.walo_smiya{
+.walo{
   display: flex;
   column-gap: 10px;
 }
@@ -394,184 +329,6 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
   font-size: 15px;
 }
  /* ...final... */
- /* hamza */
-
-
-.clients
-{
-    padding-inline: 14vw;
-    margin-top: 5vh;
-}
-
-.clients div h1
-{
-    font-weight: bold;
-    font-size: 2vw;
-    opacity: 80%;
-    display: flex;
-    justify-content: center;
-    gap: .5vw;
-    position: relative;
-    padding-bottom: 3vh;
-}
-
-.clients div h1::after
-{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 5%;
-    height: 4px;
-    background-color: hsl(9, 77%, 63%);
-}
-
-.clients div p
-{
-    padding-top: 2vh;
-    text-align: center;
-}
-
-
- .clients-section {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            padding: 60px 30px;
-        }
-
-        .carousel-container {
-            position: relative;
-            overflow: hidden;
-            padding: 20px 0;
-        }
-
-        .carousel-track {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-        }
-
-        .client-logo {
-            min-width: calc(100% / 6);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
-
-        .client-logo img {
-            max-width: 140px;
-            max-height: 60px;
-            width: auto;
-            height: auto;
-            object-fit: contain;
-            filter: grayscale(100%);
-            opacity: 0.5;
-            transition: all 0.3s ease;
-        }
-
-        .client-logo:hover img {
-            filter: grayscale(0%);
-            opacity: 1;
-            transform: scale(1.05);
-        }
-
-        .carousel-indicators {
-            display: flex;
-            justify-content: center;
-            gap: 8px;
-            margin-top: 40px;
-        }
-
-        .indicator {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: #d1d5db;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            border: none;
-            padding: 0;
-        }
-
-        .indicator:hover {
-            background: #9ca3af;
-        }
-
-        .indicator.active {
-            background: #ef4444;
-        }
-
-.cntr{
-    width: 50vw;
-}
-
-
-
-/* Mobile Dropdown Fix */
-@media (max-width: 1024px)
-{
-
-    .header-container,
-    .navbar .container-fluid
-    {
-        padding-inline: 5vw;
-    }
-
-    .dropdown-menu .submenu
-    {
-        position: static; /* No absolute positioning */
-        width: 100%; /* Full width */
-        padding-left: 20px; /* Indent it slightly */
-        margin-top: 0;
-        background-color: transparent; /* Blend with parent */
-        border: none; /* Remove border */
-        box-shadow: none; /* Remove shadow */
-
-        /* Reset animation for mobile */
-        transform: none;
-        opacity: 1;
-        visibility: visible;
-        display: none; /* Hidden by default until toggled */
-    }
-    /* Show submenu when parent is hovered/clicked */
-    .dropdown-menu li:hover > .submenu {
-        display: block;
-    }
-
-    /* Rotate arrow on mobile */
-    .dropdown-menu li:hover > .dropdown-toggle::after {
-        transform: rotate(180deg);
-    }
-
-    .about
-    {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .scl a
-    {
-        display: none;
-    }
-    .client-logo 
-    {
-        min-width: calc(100% / 4);
-    }
-}
-
- @media (max-width: 480px) 
- {
-            .client-logo {
-                min-width: calc(100% / 2);
-            }
-            .client-logo img {
-                max-width: 100px;
-                max-height: 50px;
-            }
-    
-}
 /* hamza */
 .cards_servise{
     /* width: 100%; */
@@ -624,7 +381,7 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
 
 /* body */
  /* ..................... */
-
+/* .........media_home...... */
 @media (max-width:450px){
   
   .part1_in_home{
@@ -681,9 +438,7 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
     flex-direction: column;
     justify-content: center;
   }
-  .bottom2{
-    
-  }
+ 
   .bottom_right{
     display: flex;
     flex-direction: column;
@@ -709,5 +464,413 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
   .max-autoo{
     width: 350px;
   }
-   
+  .part4_in_home{
+    position: relative;
+    left: 18%;
+    
+  }
+ 
+}
+
+/* ......About..... */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container
+{
+    width: 100%;
+    height: 5vh;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 24%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15vw;
+    color: aliceblue;
+}
+
+
+
+.header-container div
+ {
+    display: flex;
+    gap: 1vw;
+}
+
+
+.header-container div p 
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    padding-top: 1vh;
+}
+
+.header-container div p:nth-child(1):hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.link
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    color: hsl(9, 77%, 63%);
+    text-decoration: underline;
+}
+
+.header-container div p svg 
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.header-container a
+{
+    color: aliceblue;
+}
+
+.scl 
+{
+    opacity: 70%;
+}
+
+.scl a:hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.logo
+{
+    color: hsl(0, 0%, 37%);
+    text-decoration: none;
+    border-left: 10px solid hsl(9, 77%, 63%);
+    padding-left: 1vw;
+    font-size: 1.5vw;
+}
+
+
+.navbar .container-fluid
+{
+    padding-inline: 15vw;
+}
+
+.lnk
+{
+    text-decoration: none;
+    padding: 0.5vw;
+    cursor: pointer;
+    color: hsl(0, 0%, 24%);
+}
+
+.lnk1
+{
+    color: hsl(9, 77%, 63%) ;
+    text-decoration: none;
+}
+
+.lnk:hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+/* the nested drop style */
+.dropdown-menu .submenu
+{
+    display: none;
+    position: absolute;
+    top: 30%;
+    right: 100%; /*to show the menu on the right side*/
+    /* aligns with the top of parent */
+    margin-top: -1px; 
+    /* Animation initial state (Hidden) */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px); /* Start slightly lower */
+      
+    /* The Transition Magic */
+    transition: all 0.3s ease-in-out;
+    display: block; /* We keep it 'block' but hidden with opacity */
+}
+
+/* shows the menu on hover*/
+.dropdown-menu li:hover .submenu
+{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* Move back to original position */
+}
+
+
+.dropdown-menu li:hover .dropdown-toggle::after
+{
+    transform: rotate(90deg); 
+}
+
+/* navbar back */
+
+.navback
+{
+    background-color:hsl(0, 0%, 97%);
+    padding: 1vw;
+    color: hsl(0, 0%, 24%);
+    padding-left: 15vw;
+}
+
+.navback div
+{
+    display: flex;
+    gap: .5vw;
+}
+
+.navback a
+{
+    text-decoration: none;
+    color: hsl(9, 77%, 63%);
+    cursor: pointer;
+    padding-bottom: 1vh;
+}
+
+
+
+
+
+
+
+.header-container
+{
+    width: 100%;
+    height: 5vh;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 24%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15vw;
+    color: aliceblue;
+}
+
+
+
+.header-container div
+ {
+    display: flex;
+    gap: 1vw;
+}
+
+
+.header-container div p
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    padding-top: 1vh;
+}
+
+.header-container div p:nth-child(1):hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.link
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    color: hsl(9, 77%, 63%);
+    text-decoration: underline;
+}
+
+.header-container div p svg
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.header-container a
+{
+    color: aliceblue;
+}
+
+.scl
+{
+    opacity: 70%;
+}
+
+.scl a:hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+.logo
+{
+    color: hsl(0, 0%, 37%);
+    text-decoration: none;
+    border-left: 10px solid hsl(9, 77%, 63%);
+    padding-left: 1vw;
+    font-size: 1.5vw;
+}
+
+
+.navbar .container-fluid
+{
+    padding-inline: 15vw;
+}
+
+.lnk
+{
+    text-decoration: none;
+    padding: 0.5vw;
+    cursor: pointer;
+    color: hsl(0, 0%, 24%);
+}
+
+.lnk1
+{
+    color: hsl(9, 77%, 63%) ;
+    text-decoration: none;
+}
+
+.lnk:hover
+{
+    color: hsl(9, 77%, 63%);
+}
+
+/* the nested drop style */
+.dropdown-menu .submenu
+{
+    display: none;
+    position: absolute;
+    top: 30%;
+    right: 100%; /*to show the menu on the right side*/
+    /* aligns with the top of parent */
+    margin-top: -1px;
+    /* Animation initial state (Hidden) */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px); /* Start slightly lower */
+
+    /* The Transition Magic */
+    transition: all 0.3s ease-in-out;
+    display: block; /* We keep it 'block' but hidden with opacity */
+}
+
+/* shows the menu on hover*/
+.dropdown-menu li:hover .submenu
+{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* Move back to original position */
+}
+
+
+.dropdown-menu li:hover .dropdown-toggle::after
+{
+    transform: rotate(90deg);
+}
+/* ...................part5_in_home................. */
+.clients-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 60px 30px;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.client-logo {
+    min-width: calc(100% / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.client-logo img {
+    max-width: 140px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.client-logo:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 40px;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #d1d5db;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    padding: 0;
+}
+
+.indicator:hover {
+    background: #9ca3af;
+}
+
+.indicator.active {
+    background: #ef4444;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .client-logo {
+        min-width: calc(100% / 4);
+    }
+}
+
+@media (max-width: 768px) {
+    .client-logo {
+        min-width: calc(100% / 3);
+    }
+}
+
+@media (max-width: 480px) {
+    .client-logo {
+        min-width: calc(100% / 2);
+    }
+    
+    .client-logo img {
+        max-width: 100px;
+        max-height: 50px;
+    }
 }
