@@ -631,3 +631,57 @@ body{
   color:  #E96B56;
  font-size: 36px;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  background: #f27664;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+
+}
+/* navbar back */
+
+.navback
+{
+    background-color:hsl(0, 0%, 97%);
+    padding: 1vw;
+    color: hsl(0, 0%, 24%);
+    padding-left: 15vw;
+}
+
+.navback div
+{
+    display: flex;
+    gap: .5vw;
+}
+
+.navback a
+{
+    text-decoration: none;
+    color: hsl(9, 77%, 63%);
+    cursor: pointer;
+    padding-bottom: 1vh;
+}
+
+.navback h1
+{
+    color: hsl(0, 0%, 33%);
+    font-size: 2vw;
+}
+
+.navspan
+{
+    opacity: 70%;
+}
