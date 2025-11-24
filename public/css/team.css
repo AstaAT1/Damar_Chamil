@@ -1,0 +1,20 @@
+.chief{
+    border-bottom: solid 1px;
+    padding-bottom: 8px;
+}
+.links_card{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    color: gray;
+}
+.links_card div{
+    background-color:rgb(245, 245, 245);
+    padding: 4px;
+    border-radius: 100%;
+}
+.links_card :hover{
+    background-color: rgb(232, 108, 86);
+    color: white;
+}

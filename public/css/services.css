@@ -294,6 +294,39 @@ body{
 .childp2{
   font-size: 15px;
 }
+
+
+#header {
+    background: #fff;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 998;
+}
+
+#header .logo h1 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#header .logo h1 a, #header .logo h1 a:hover {
+    color: #555555;
+    text-decoration: none;
+    border-left: 4px solid var(--primary-color);
+    padding-left: 10px;
+}
+
+
 .header-container
 {
     width: 100%;
