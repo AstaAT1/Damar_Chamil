@@ -342,15 +342,35 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
  flex-direction: column;
  align-items: center;
 }
-.card-hover:hover{
-    .card-befor{
+/* lhover */
+.card-hover:hover {
+    color: white;
+    background-color: rgb(232, 108, 86);
+    transition: 0.5s;
+}
+
+.card-hover:hover .card-befor,
+.card-hover:hover .bi-activity,
+.card-hover:hover .bi-broadcast,
+.card-hover:hover .bi-easel,
+.card-hover:hover  .bi-bounding-box-circles,
+.card-hover:hover  .bi-calendar-week
+, .card-hover:hover  .bi-chat-square-text {
+    background-color: #fff;
+    color: #f75d59;
+}
+
+
+
+.card-tow:hover{
+    .card-tow ,.bi-broadcast{
         background-color: #fff;
-        color: #f75d59;
     }
     color: white;
     background-color: rgb(232, 108, 86);
     transition: 0.5s;
 }
+/*  */
 .card-befor{
     position: relative;
     height: 70px;
@@ -377,6 +397,42 @@ box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.94);
 .sec1_servise{
     animation-duration: 3s;
 }
+/* bOur Skills
+ody */
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* body */
+
+/* sec2 */
+.servise_sec2{
+    width: 69.4vw;
+    height: 717px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.servise_sec2 h2{
+    position: relative;
+    font-weight: bold;
+}
+.servise_sec2 h2::after{
+    content: '';
+    background-color: #e96b56;
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    left: 30%;
+    top: 46px;
+}
+.h2_p_sec2{
+    line-height: 4.0;
+}
+.servise_sec2 p{
+    font-size: 16px;
+}
+
 /* body */
 
 /* body */
