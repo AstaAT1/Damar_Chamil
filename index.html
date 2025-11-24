@@ -21,7 +21,9 @@
 
         <title>Document</title>
     </head>
-    <body>
+    <body  id="topo">
+       
+
          <header>
             <!-- The about page container-->
              <section class="header-container">
@@ -363,8 +365,19 @@
 
   <!-- ........................part5_in_home.................... -->
    <!-- clients moving section -->
-                 <section class="clients-section part5_in_home">
-        <div class="carousel-container">
+           <section class="clients">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Clients</h2>
+                        <span></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa minima consequuntur quasi sunt alias perferendis cupiditate officia consequatur laudantium qui recusandae, sit ipsum repellendus.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- clients moving section -->
+                 <section class="clients-section">
+        <div class="container carousel-container">
             <div class="carousel-track" id="carouselTrack">
                 <!-- client 1 -->
                 <div class="client-logo">
@@ -392,16 +405,17 @@
                 </div>
 
             <div class="carousel-indicators">
-                <button class="indicator active"></button>
-                <button class="indicator"></button>
-                <button class="indicator"></button>
-                <button class="indicator"></button>
-                <button class="indicator"></button>
-                <button class="indicator"></button>
-                <button class="indicator"></button>
-                <button class="indicator"></button>
+                <button class="indicator active" aria-label="Slide 1"></button>
+                <button class="indicator" aria-label="Slide 2"></button>
+                <button class="indicator" aria-label="Slide 3"></button>
+                <button class="indicator" aria-label="Slide 4"></button>
+                <button class="indicator" aria-label="Slide 5"></button>
+                <button class="indicator" aria-label="Slide 6"></button>
+                <button class="indicator" aria-label="Slide 7"></button>
+                <button class="indicator" aria-label="Slide 8"></button>
             </div>
         </div>
+             </section>
              </section>
              <!-- ................................................ -->
         <footer>
@@ -490,6 +504,7 @@
                 </div>
             </div>
         </footer>
+         <a href="#topo" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
