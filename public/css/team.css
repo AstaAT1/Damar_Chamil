@@ -18,3 +18,134 @@
     background-color: rgb(232, 108, 86);
     color: white;
 }
+.ms-n5 {
+    position: relative;
+    left: 580px;
+    top: -50px;
+    
+  
+  
+   
+}
+.top button{
+ background-color: #E96B56;color: aliceblue;
+ height: 50px;
+ width: 120px;
+ font-size: 18px;
+}
+.top button:hover{
+  opacity: 0.8;
+  background-color: #E96B56;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #595959;
+  row-gap: 20px;
+ 
+  height: 30vh;
+  color: aliceblue;
+}
+.max-autoo{
+  width: 700px;
+}
+.input-group{
+  height: 50px
+  
+}
+#example-search-input{
+  background-color: #656565;
+  border: 2px rgb(128, 128, 128) solid;
+   width: 700px;
+   height: 50px
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  background-color: #444444;
+  padding-top: 100px;
+  height: auto;
+}
+.bottom1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 250px;
+}
+.bottom_left{
+ color: aliceblue;
+}
+.bottom_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  color: aliceblue;
+}
+.salaw_smiyat{
+  display: flex;
+  color: rgb(160, 160, 160);
+  column-gap: 4px;
+  
+}
+.salaw_smiyat i{
+  color: #E96B56;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.witho{
+  width: 70%;
+}
+.iconso{
+  border: white 1px solid;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.walo{
+  display: flex;
+  column-gap: 10px;
+}
+
+.adress{
+  width: 55%;
+}
+.bottom2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  color: aliceblue;
+  height: 14vh;
+  
+
+}
+.spano{
+
+  padding-bottom:20px;
+  width: 80%;
+  border-top: 1px solid gray;
+}
+.childp1 span{
+  font-weight: bold;
+}
+.childp2 span{
+  color: #E96B56;
+}
+.childp2{
+  font-size: 15px;
+}
+ /* ...final... */
